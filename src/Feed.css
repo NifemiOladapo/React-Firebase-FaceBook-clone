@@ -1,0 +1,17 @@
+.feed {
+  padding: 30px 150px;
+  /* width: 3px; */
+  flex: 1;
+  /* overflow: scroll; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+@media only screen and (max-width: 500px) {
+  .feed {
+    padding: 1px 1px;
+    text-align: center;
+  }
+}

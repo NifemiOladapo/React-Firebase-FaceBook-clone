@@ -1,0 +1,10 @@
+.story__reel {
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .story__reel {
+    width: 100vw;
+    /* overflow-x: scroll; */
+  }
+}
